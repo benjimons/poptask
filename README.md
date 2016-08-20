@@ -14,3 +14,6 @@ Try xammp http://www.apachefriends.org/en/xampp.html
 5. Login 
    * default username: admin 
    * default password: password
+
+#Screenshots
+![alt tag](http://imgur.com/6GoxRrm)
