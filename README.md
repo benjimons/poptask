@@ -6,7 +6,7 @@ Try xammp http://www.apachefriends.org/en/xampp.html
 
 1. Copy poptask folder to your htdocs folder eg /var/www
 2. Set up a cron job to run "task_populator.php" (this runs the email alerts and scheduling)
-   * eg */5 * * * * php -q /var/www/poptask/task_populator.php >/dev/null
+   ```eg */5 * * * * php -q /var/www/poptask/task_populator.php >/dev/null```
 3. Create a database on your local server
 4. Access the setup.php script via your browser eg http://localhost/poptask/setup.php
 5. Login 
