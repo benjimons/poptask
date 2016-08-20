@@ -16,4 +16,6 @@ Try xammp http://www.apachefriends.org/en/xampp.html
    * default password: password
 
 #Screenshots
-![alt tag](http://imgur.com/6GoxRrm)
+![Alt text](poptask1.png?raw=true "Main working screen")
+
+![Alt text](poptask2.png?raw=true "Edit and add events")
