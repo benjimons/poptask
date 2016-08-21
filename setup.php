@@ -78,6 +78,7 @@ function db_test_create_db_permission($database) {
 	$data .= 'username'." = ".$db['DB_SERVER_USERNAME']."\r\n";
 	$data .= 'password'." = ".$db['DB_SERVER_PASSWORD']."\r\n";
 	$data .= 'dbname'." = ".$db['DB_DATABASE']."\r\n";
+	$data .= 'replytoemail'." = ".$replytoemail."\r\n";
 	$data .= ';*/ '."\r\n".';?>';
 
 	fwrite($handle, $data);
