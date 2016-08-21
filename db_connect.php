@@ -12,6 +12,7 @@ function connectdb($bypass=false){
 	$dbname=$ini_array['dbname'];
 	$dbusername=$ini_array['username'];
 	$dbpassword=$ini_array['password'];
+	$replytoemail=$ini_array['replytoemail'];
 	
 	if((isset($_SESSION['loggedin'])==true)||$bypass){
 		$mysqli = new mysqli($dbhost, $dbusername, $dbpassword, $dbname, 3306);
