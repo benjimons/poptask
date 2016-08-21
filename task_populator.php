@@ -16,10 +16,10 @@ $mailstmt2 = $mysqlim2->prepare("UPDATE notify SET LastSent = NOW() WHERE Notify
 while($mailstmt->fetch()){
 	echo $thistime."Mail to be sent to ".$rmemail." for ".$rmtitle." scheduled for ".$rmscheduled."<br />";
 	$to = $rmemail;
-	$subject = "Task Reminder: ".$rmtitle;
+	$subject = "PopTask Reminder: ".$rmtitle;
 	$body = "Due: ".$rmscheduled."\r\n"."Title: ".$rmtitle;
-	$headers = 'From: t-sirt-alerts@telecom.co.nz' . "\r\n" .
-	   'Reply-To: t-sirt-alerts@telecom.co.nz' . "\r\n" .
+	$headers = 'From: '. $replytoemail . "\r\n" .
+	   'Reply-To: '. $replytoemail . "\r\n" .
 	   'X-Mailer: PHP/' . phpversion();
 	if (mail($to, $subject, $body, $headers)) {
 	   echo("Email successfully sent!<br />");
