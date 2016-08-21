@@ -194,6 +194,7 @@ Enter in your mysql host information and ensure you have connectivity over port 
 <tr><td style='font-size:11px; width:40%'>mySQL Database Name: </td><td style="width:60%;"><input value="<?php echo $db['DB_DATABASE'];?>" name="mysqldatabase" style="width:100%;" type="text"></td></tr>
 <tr><td style='font-size:11px;'>mySQL Username: </td><td style="width:60%;"><input value="<?php echo $db['DB_SERVER_USERNAME'];?>" name="mysqlusername" style="width:100%;" type="text"></td></tr>
 <tr><td style='font-size:11px;'>mySQL Password: </td><td style="width:60%;"><input value="<?php echo $db['DB_SERVER_PASSWORD'];?>" name="mysqlpassword" style="width:100%;" type="text"></td></tr>
+<tr><td style='font-size:11px;'>Reply to Email Address: </td><td style="width:60%;"><input value="" name="replytoemail" style="width:100%;" type="text"></td></tr>
 </table>
 <br /><br />
 <center><br />
